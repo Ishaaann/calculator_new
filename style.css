@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+button{
+    border-radius: 10px;
+    border-color: white;
+}
+
+.container{
+    height: 500px;
+    width: 400px;
+    /* outline: solid black; */
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+#display{
+    height: 100px;
+    /* outline: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+    #previousnum{
+        /* outline: solid; */
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 400px;
+        flex:1;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px 20px;
+        font-size: 20px;
+    }
+
+    #newnum{
+        height: 50px;
+        width: 400px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px 20px;
+        /* outline: solid; */
+        font-size: 30px;
+    }
+
+.num{
+    height: 90px;
+    width: 90px;
+    font-size: 15px;
+    margin: 2px 2px;
+    border-color: gold;
+}
+    .num:hover{
+        background-color: greenyellow;
+    }
+
+.operator{
+        height: 90px;
+        width: 90px;
+        font-size: 15px;
+        margin: 2px 2px;
+        border-color: greenyellow;
+    }
+
+    .operator:hover{
+        background-color: lightpink;
+    }
+
+#equal{
+    height: 90px;
+    width: 90px;
+    font-size: 15px;
+    margin: 2px 2px;
+    border-color: gold;
+}
+    
+    #equal:hover{
+        background-color: greenyellow;
+    }
+
+
+#bottom_display{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px 10px;
+}
